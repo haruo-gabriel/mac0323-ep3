@@ -1,0 +1,36 @@
+0: ACTCGT
+Arcs: 
+
+1: ATACATAA
+Arcs: 
+
+2: TAACGA
+Arcs: 
+
+3: ACGAT
+Arcs: 
+
+4: TCGTA
+Arcs: 
+
+5: AAATA
+Arcs: 
+
+6: ATAAC
+Arcs: 
+
+7: CGAT
+Arcs: 
+
+8: GTAAATA
+Arcs: 
+
+9: ACATAA
+Arcs: 
+
+10: GATAC
+Arcs: 
+
+11: GATAC
+Arcs: 
+
