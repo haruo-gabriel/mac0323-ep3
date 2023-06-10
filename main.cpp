@@ -8,6 +8,7 @@ int main() {
 
   // add all nodes to the graph
   graph.addAllNodes();
+  graph.addArcs();
   graph.print();
   return 0;
 }

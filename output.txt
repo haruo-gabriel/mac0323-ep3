@@ -1,36 +1,93 @@
 0: ACTCGT
 Arcs: 
+(TCGTA , 4)
+(GTAAATA , 2)
+
 
 1: ATACATAA
 Arcs: 
+(TAACGA , 3)
+(AAATA , 2)
+(ATAAC , 4)
+(ACATAA , 6)
+
 
 2: TAACGA
 Arcs: 
+(ACGAT , 4)
+(CGAT , 3)
+(GATAC , 2)
+(GATAC , 2)
+
 
 3: ACGAT
 Arcs: 
+(ATACATAA , 2)
+(ATAAC , 2)
+(CGAT , 4)
+(GATAC , 3)
+(GATAC , 3)
+
 
 4: TCGTA
 Arcs: 
+(TAACGA , 2)
+(GTAAATA , 3)
+
 
 5: AAATA
 Arcs: 
+(ATACATAA , 3)
+(TAACGA , 2)
+(ATAAC , 3)
+
 
 6: ATAAC
 Arcs: 
+(ACTCGT , 2)
+(TAACGA , 4)
+(ACGAT , 2)
+(ACATAA , 2)
+
 
 7: CGAT
 Arcs: 
+(ATACATAA , 2)
+(ATAAC , 2)
+(GATAC , 3)
+(GATAC , 3)
+
 
 8: GTAAATA
 Arcs: 
+(ATACATAA , 3)
+(TAACGA , 2)
+(AAATA , 5)
+(ATAAC , 3)
+
 
 9: ACATAA
 Arcs: 
+(TAACGA , 3)
+(AAATA , 2)
+(ATAAC , 4)
+
 
 10: GATAC
 Arcs: 
+(ACTCGT , 2)
+(ATACATAA , 4)
+(ACGAT , 2)
+(ACATAA , 2)
+(GATAC , 5)
+
 
 11: GATAC
 Arcs: 
+(ACTCGT , 2)
+(ATACATAA , 4)
+(ACGAT , 2)
+(ACATAA , 2)
+(GATAC , 5)
+
 
