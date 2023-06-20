@@ -1,3 +1,5 @@
 b main
-b commonSequence
-r < input.txt
+#b longestPath
+#b lib.h:178
+#b uniteSequences
+r < carlinhos.txt
