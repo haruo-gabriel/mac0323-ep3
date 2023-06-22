@@ -32,7 +32,7 @@ private:
 public:
   vector<Node> nodes;
   int numNodes;
-  int k; // k-mer length
+  int k;
 
   Graph(int numNodes, int k)
   {
@@ -157,6 +157,7 @@ public:
       dist[font->id] = 0;
       prev[font->id] = -1;
       pathSize = longestPathHelper(font, dist, prev);
+      // verifies if the new path is longer than the present one
       if (dist[pathSize] > longestSize) {
         longestSize = dist[pathSize];
         // make a copy of prev to prevLongest
@@ -182,7 +183,7 @@ public:
 
     if (longestPathIds.size() > 0) {
       longestPath = nodes[longestPathIds[0]].sequence;
-      cout << longestPath << endl;
+      // cout << longestPath << endl;
       for (unsigned int i=1; i<longestPathIds.size(); i++) {
         longestPath = longestPath + uniteSequences(longestPath, nodes[longestPathIds[i]].sequence);
         //cout << longestPath << endl;
@@ -209,7 +210,7 @@ public:
         }
       }
     }
-    return u; // returns the indice of the last node of the longest path
+    return u; // returns the index of the last node of the longest path
   }
   string uniteSequences(string back, string front)
   {
